@@ -7,13 +7,12 @@ import Html exposing (Html, div, text)
 port loadStl  : (String -> msg) -> Sub msg
 port sendMesh : Encode.Value -> Cmd msg
 
-
 main =
     Browser.element
         { init = init
         , update = update
         , subscriptions = subscriptions
-        , view = \_ -> div [] []
+        , view = \_ -> div [] [] -- dummy element in html
         }
 
 type alias Model = {}
