@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build":"elm make .\\src\\Main.elm --output=elm.js"
+  },
+  "dependencies": {
+    "elm": "^0.19.1-6",
+    "uninstall": "^0.0.0"
+  }
+}

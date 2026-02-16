@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+
+<head>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: monospace;
+      font-size: large;
+    }
+
+    #render {
+      border-width: 2px;
+      border-color: white;
+      border-style: dotted;
+    }
+  </style>
+</head>
+
+<body style="display: flex;justify-content: center;height: 100dvh;">
+  <div style="display: flex;flex-direction: column; gap: 0.8%;">
+    <canvas id="render" 
+      style="margin-top: 5%;"></canvas>
+    <div id="dummy"></div>
+    <span>Raw JS + elm .STL render</span>
+    <span>Drop .stl into frame</span>
+  </div>
+  <script src="elm.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
