@@ -3,6 +3,6 @@
 I was inspired by Tsoding when he created own graphic API with canvas only and 
 I decided to append `.stl` render in this tinr API with small _Elm_ module that parse `.stl` file and load into API. I think that  functional languages incredibly good for data parsing (in out case just plain ASCII text).
 
-- STL parse /src/Main.elm
+- STL parser -  /src/Main.elm
 
 <img src="./test0001-0238.gif">
